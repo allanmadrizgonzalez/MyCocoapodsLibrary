@@ -8,7 +8,7 @@ target 'MyCocoapodsLibrary_Example' do
   target 'MyCocoapodsLibrary_Tests' do
     inherit! :search_paths
     
-  pod MyCocoapodsLibrary
+
 
     
   end

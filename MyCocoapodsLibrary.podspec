@@ -32,9 +32,9 @@ TODO: Esta libreria es de para pruebas academicas.
 
   s.source_files = 'MyCocoapodsLibrary/Classes/**/*'
   
-  s.resource_bundles = {
-     'Resources' => ['MyCocoapodsLibrary/Assets/Apple.jpg']
-   }
+  # s.resource_bundles = {
+  #    'Resources' => ['MyCocoapodsLibrary/Assets/Apple.jpg']
+  #  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
