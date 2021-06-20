@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyCocoapodsLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'This is a meaningful summary of my pod'
+  s.summary          = 'Esta es la libreria de Allan para el Curso de IOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Esta libreria es de para pruebas academicas.
                        DESC
 
   s.homepage         = 'https://github.com/allanmadrizgonzalez/MyCocoapodsLibrary'
