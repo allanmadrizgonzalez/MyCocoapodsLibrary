@@ -1,12 +1,11 @@
 //
 //  Client.swift
-//  AppForoLaboratorio
+//  MyCocoapodsLibrary
 //
-//  Created by Allan Madriz on 6/18/21.
+//  Created by Allan Madriz on 6/20/21.
 //
 
 import Foundation
-
 class Client: NetworkGeneric {
     var session: URLSession
     
