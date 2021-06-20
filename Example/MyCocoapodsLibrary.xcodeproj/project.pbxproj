@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22CFD86E9113AD98CE5CD8FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		22CFD86E9113AD98CE5CD8FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2A4FFBD75CC3A0699AE594B3 /* Pods-MyCocoapodsLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoapodsLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-MyCocoapodsLibrary_Example/Pods-MyCocoapodsLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		305B544097A3F3777C22FE1D /* Pods-MyCocoapodsLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoapodsLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyCocoapodsLibrary_Tests/Pods-MyCocoapodsLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3BDD9DAF4C7F4B22E45D365B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		508BE1C34B6D2CE22176B390 /* MyCocoapodsLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyCocoapodsLibrary.podspec; path = ../MyCocoapodsLibrary.podspec; sourceTree = "<group>"; };
+		3BDD9DAF4C7F4B22E45D365B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		508BE1C34B6D2CE22176B390 /* MyCocoapodsLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyCocoapodsLibrary.podspec; path = ../MyCocoapodsLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		540E74FFBB58ED90FA6867E2 /* Pods_MyCocoapodsLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCocoapodsLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MyCocoapodsLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCocoapodsLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				AA6A806B4D274EA436123674 /* Pods-MyCocoapodsLibrary_Tests.debug.xcconfig */,
 				305B544097A3F3777C22FE1D /* Pods-MyCocoapodsLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
