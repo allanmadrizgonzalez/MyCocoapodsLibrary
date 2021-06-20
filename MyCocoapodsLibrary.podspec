@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyCocoapodsLibrary'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Esta es la libreria de Allan para el Curso de IOS'
 
 # This description is used to generate tags and improve search results.

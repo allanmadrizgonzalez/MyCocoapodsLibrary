@@ -16,9 +16,9 @@
 		C4F19B737A99EE067639450459A834F0 /* MyCocoapodsLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60A0189840D2AB7AB12EDE91CBBC8DF /* MyCocoapodsLibrary-dummy.m */; };
 		D97D76C541CAFA38A7228B1CE34B8983 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DA74E88BF80AA682EC327A144571071E /* Pods-MyCocoapodsLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70489A444CA1716DDFE91BA9C2AF3552 /* Pods-MyCocoapodsLibrary_Tests-dummy.m */; };
-		E98F67F8268005D900AF5E6E /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F67F7268005D900AF5E6E /* ApiError.swift */; };
-		E98F67FA2680060700AF5E6E /* NetworkGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F67F92680060700AF5E6E /* NetworkGeneric.swift */; };
-		E98F67FC2680063100AF5E6E /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F67FB2680063100AF5E6E /* Client.swift */; };
+		E98F67FE26800A7100AF5E6E /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F67FD26800A7100AF5E6E /* Client.swift */; };
+		E98F680026800A7900AF5E6E /* NetworkGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F67FF26800A7900AF5E6E /* NetworkGeneric.swift */; };
+		E98F680226800A8200AF5E6E /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F680126800A8200AF5E6E /* ApiError.swift */; };
 		F0AF3B16DC4F5A35F4B511C7C39CEC49 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF83C085830F8D8F0EA03EF929F92 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,9 +72,9 @@
 		BEEA04B842EB94A37FC2A55F3B4B0B80 /* MyCocoapodsLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyCocoapodsLibrary.release.xcconfig; sourceTree = "<group>"; };
 		C40B4B062B28890956B2902871A615A7 /* Pods-MyCocoapodsLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyCocoapodsLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		D8B9EBA44D688428BF055D89AE825381 /* Pods-MyCocoapodsLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyCocoapodsLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E98F67F7268005D900AF5E6E /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
-		E98F67F92680060700AF5E6E /* NetworkGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGeneric.swift; sourceTree = "<group>"; };
-		E98F67FB2680063100AF5E6E /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		E98F67FD26800A7100AF5E6E /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Client.swift; path = MyCocoapodsLibrary/Classes/Client.swift; sourceTree = "<group>"; };
+		E98F67FF26800A7900AF5E6E /* NetworkGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkGeneric.swift; path = MyCocoapodsLibrary/Classes/NetworkGeneric.swift; sourceTree = "<group>"; };
+		E98F680126800A8200AF5E6E /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiError.swift; path = MyCocoapodsLibrary/Classes/ApiError.swift; sourceTree = "<group>"; };
 		FE25305EEB57A875789D44C96DB984F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,10 +109,10 @@
 		0BF3B4786EF100A4A8CBD2FD27AEB24F /* MyCocoapodsLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				E98F680126800A8200AF5E6E /* ApiError.swift */,
+				E98F67FF26800A7900AF5E6E /* NetworkGeneric.swift */,
+				E98F67FD26800A7100AF5E6E /* Client.swift */,
 				2DFCF83C085830F8D8F0EA03EF929F92 /* Logger.swift */,
-				E98F67FB2680063100AF5E6E /* Client.swift */,
-				E98F67F7268005D900AF5E6E /* ApiError.swift */,
-				E98F67F92680060700AF5E6E /* NetworkGeneric.swift */,
 				B5314649CEC1B00E4E9C1E973F3DD300 /* Pod */,
 				161938A81AFB51314DDCF1538616B826 /* Support Files */,
 			);
@@ -378,9 +378,9 @@
 			files = (
 				F0AF3B16DC4F5A35F4B511C7C39CEC49 /* Logger.swift in Sources */,
 				C4F19B737A99EE067639450459A834F0 /* MyCocoapodsLibrary-dummy.m in Sources */,
-				E98F67FA2680060700AF5E6E /* NetworkGeneric.swift in Sources */,
-				E98F67FC2680063100AF5E6E /* Client.swift in Sources */,
-				E98F67F8268005D900AF5E6E /* ApiError.swift in Sources */,
+				E98F680026800A7900AF5E6E /* NetworkGeneric.swift in Sources */,
+				E98F680226800A8200AF5E6E /* ApiError.swift in Sources */,
+				E98F67FE26800A7100AF5E6E /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
